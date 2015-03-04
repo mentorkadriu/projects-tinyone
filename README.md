@@ -33,3 +33,7 @@
 #### Slider
 
 [Owl Carousel](http://owlgraphic.com/owlcarousel/)
+
+#### Full image
+
+![](https://github.com/mentorkadriu/tinyone/blob/master/tinyone-2.jpg "Tinyone")

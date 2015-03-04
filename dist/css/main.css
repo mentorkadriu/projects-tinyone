@@ -1,0 +1,247 @@
+/*==============================
+=            GLOBAL            =
+==============================*/
+.full-row {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0; }
+
+.full-block {
+  float: left;
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative; }
+
+/*-----  End of GLOBAL  ------*/
+/*==============================
+=            HEADER            =
+==============================*/
+#header {
+  background-color: #fcdb00; }
+
+#menu-icon {
+  margin-top: 4.688rem;
+  float: left;
+  width: 100%;
+  position: relative;
+  display: block;
+  text-align: center; }
+  @media only screen and (min-width:40.063em) {
+    #menu-icon {
+      text-align: left; } }
+
+#logo {
+  display: block;
+  float: left;
+  width: 100%;
+  position: relative;
+  margin-top: 3.75rem; }
+  #logo a {
+    color: #010101;
+    text-decoration: none;
+    font-size: 1.875rem;
+    font-weight: bold; }
+    #logo a:first-child {
+      padding-right: 0.2em; }
+
+#social-icons {
+  text-align: center;
+  margin-top: 2.188rem;
+  float: left;
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 0; }
+  @media only screen and (min-width:40.063em) {
+    #social-icons {
+      text-align: right;
+      margin-top: 4.688rem; } }
+  #social-icons li {
+    display: inline-block;
+    padding-left: 1.375rem; }
+  #social-icons a {
+    text-decoration: none;
+    color: #010101;
+    font-size: 1.188rem; }
+
+#slider {
+  margin-bottom: 1em; }
+  #slider h1 {
+    color: #010101;
+    font-size: 3rem;
+    font-weight: bold; }
+  #slider p {
+    color: #313741;
+    font-size: 1.25rem;
+    line-height: 1.5rem; }
+
+.slider-slide {
+  padding-top: 5em;
+  padding-bottom: 5em; }
+
+#slide-icons {
+  list-style: none; }
+  #slide-icons li {
+    display: inline-block;
+    border: 1px solid #010101;
+    width: 70px;
+    height: 70px;
+    line-height: 80px;
+    border-radius: 35px;
+    margin-left: 17px;
+    margin-right: 18px; }
+    #slide-icons li i {
+      color: #010101;
+      font-size: 2.188rem; }
+
+/*-----  End of HEADER  ------*/
+/*================================
+=            Features            =
+================================*/
+#features {
+  background-color: #fff;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem; }
+  @media only screen and (min-width:40.063em) {
+    #features {
+      padding-top: 6.688rem;
+      padding-bottom: 6.688rem; } }
+
+.features-top {
+  text-align: center;
+  padding-bottom: 0.625rem; }
+  @media only screen and (min-width:40.063em) {
+    .features-top {
+      padding-bottom: 4.063rem; } }
+  .features-top h2 {
+    font-size: 2rem;
+    font-weight: bold; }
+  .features-top h3 {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: #313741; }
+
+.features-box {
+  padding-top: 2rem;
+  padding-bottom: 1.375rem; }
+  @media only screen and (min-width:40.063em) {
+    .features-box {
+      padding-top: 3.875rem; } }
+  .features-box h4 {
+    font-size: 1.375rem;
+    text-align: center; }
+    @media only screen and (min-width:40.063em) {
+      .features-box h4 {
+        text-align: left; } }
+  .features-box p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #888888;
+    text-align: center; }
+    @media only screen and (min-width:40.063em) {
+      .features-box p {
+        text-align: left; } }
+
+/*-----  End of Features  ------*/
+/*=================================
+=            SUBSCRIBE            =
+=================================*/
+#subscribe {
+  background-color: #010101;
+  color: #fff;
+  padding-top: 5.938rem;
+  padding-bottom: 5.938rem; }
+  #subscribe article {
+    text-align: center;
+    padding-bottom: 2.5rem; }
+
+#subscribe-header {
+  color: #fcdb00;
+  font-size: 2rem;
+  font-weight: bold; }
+
+#subscribe-sub-header {
+  color: #888888;
+  font-size: 1.25rem;
+  line-height: 1.5rem; }
+
+form input[type="text"] {
+  height: 3.125rem;
+  line-height: 3.125rem;
+  color: #888888;
+  font-size: 1rem;
+  padding-left: 1.563rem;
+  padding-right: 1.563rem; }
+form input[type="submit"] {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  height: 3.125rem; }
+form .yellow {
+  background-color: #fcdb00;
+  border-color: #fcdb00;
+  color: #010101; }
+  form .yellow:hover {
+    background-color: #FFE640;
+    color: #010101; }
+  form .yellow:focus {
+    background-color: #FFE640;
+    color: #010101;
+    outline: none; }
+  form .yellow:active {
+    background-color: #FFE640;
+    color: #010101;
+    outline: none; }
+
+/*-----  End of SUBSCRIBE  ------*/
+/*==============================
+=            FOOTER            =
+==============================*/
+#footer {
+  background-color: #010101;
+  padding-bottom: 13.125rem; }
+  @media only screen and (max-width: 40em) {
+    #footer {
+      padding-bottom: 2rem; } }
+
+address {
+  color: #fff;
+  font-size: 1em;
+  font-style: normal;
+  text-align: center; }
+  @media only screen and (max-width: 40em) {
+    address {
+      margin-bottom: 1rem; } }
+  @media only screen and (min-width:40.063em) {
+    address {
+      text-align: left; } }
+  address a {
+    color: #fff;
+    text-decoration: none; }
+
+#nav-bottom ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  @media only screen and (max-width: 40em) {
+    #nav-bottom ul {
+      padding-top: 1rem;
+      padding-bottom: 1rem; } }
+  #nav-bottom ul li {
+    display: block; }
+    @media only screen and (max-width: 40em) {
+      #nav-bottom ul li {
+        text-align: center; } }
+    #nav-bottom ul li a {
+      color: #fff;
+      text-decoration: none; }
+      #nav-bottom ul li a:hover {
+        text-decoration: underline; }
+
+/*-----  End of FOOTER  ------*/
