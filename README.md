@@ -1,7 +1,9 @@
 
 ## Install ##
 
-1. Install comapss if you already haven't `gem install compass`
+1. Run `npm install`
+
+2. Run `gulp`
 
 
 ### Link to PSD ###
