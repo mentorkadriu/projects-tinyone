@@ -1,5 +1,5 @@
 
-(https://github.com/mentorkadriu/tinyone "Tinyone")
+![](https://github.com/mentorkadriu/tinyone/blob/master/tinyone.jpg "Tinyone")
 
 ## Install ##
 
