@@ -1,0 +1,24 @@
+{
+  "name": "Tinyone html/css/js",
+  "version": "0.1.0",
+  "authors": [
+    "Mentor Kadriu <mentor.kadriu@gmail.com>"
+  ],
+  "description": "Tinyone ",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "gulpfile",
+    "scss",
+    "jade",
+    "css3",
+    "html5",
+    "js",
+    "psd",
+    "to",
+    "html"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.mentorkadriu.com"
+}
